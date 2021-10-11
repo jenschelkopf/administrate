@@ -2,7 +2,7 @@
 
 name: Encouragement
 
-on: push
+on: [push, workflow_call]
 
 jobs:
   Give-props:
