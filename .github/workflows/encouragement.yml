@@ -12,6 +12,6 @@ jobs:
     - name: Commit Comment
       uses: peter-evans/commit-comment@v1.1.0
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ github.token }}
         # The contents of the comment.
         body: "Love this, ${{github.actor}}! 😍"
